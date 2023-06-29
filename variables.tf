@@ -1,10 +1,10 @@
 variable "instance_name" {
-  description = "Value of the Name tag for the EC2 instance"
+  description = "spacelift"
   type        = string
 
 }
 
 variable "vpc_name" {
-  description = "name of vpc"
+  description = "demo-spacelift"
   type        = string
 }
